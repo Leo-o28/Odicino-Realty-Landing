@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odicino Realty | Luxury Homes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+    <script>
+        window.botpressWebChat.init({
+            "composerPlaceholder": "Ask me anything about real estate...",
+            "botId": "YOUR-BOT-ID-HERE",
+            "host": "https://cdn.botpress.cloud/webchat",
+            "showCloseButton": true,
+            "enableTranscriptDownload": true
+        });
+    </script>
+</head>
+<body>
+    <header class="header">
+        <img src="logo_odicino_realty.png" alt="Odicino Realty">
+        <img src="logo_op_team.png" alt="The OP Team">
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Find Your Dream Luxury Home</h1>
+            <a href="#appointment" class="cta-button">Book an Appointment</a>
+        </div>
+    </section>
+    
+    <section class="container">
+        <h2>Exclusive Listings Tailored to You</h2>
+        <p>We provide a handpicked selection of the most luxurious real estate properties. Let us help you find the perfect home.</p>
+    </section>
+    
+    <section class="container" id="appointment">
+        <h2>Book an Appointment</h2>
+        <div class="appointment-form">
+            <form action="https://formspree.io/f/YOUR-FORM-ID" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="tel" name="phone" placeholder="Your Phone Number" required>
+                <button type="submit">Schedule Now</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Odicino Realty. All rights reserved.</p>
+        <div class="contact-info">
+            <p>Leandro Odicino | Sales Representative</p>
+            <p>Phone: (416) 270-1431 | (905) 867-5728</p>
+            <p><a href="https://theopteam.ca/Home" target="_blank">Visit The OP Team</a></p>
+            <p>
+                <a href="https://www.instagram.com/soldby.leo" target="_blank">Instagram</a> |
+                <a href="https://www.linkedin.com/in/leandro-odicino-844844209" target="_blank">LinkedIn</a> |
+                <a href="https://www.facebook.com/share/15nya2Dg14" target="_blank">Facebook</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
